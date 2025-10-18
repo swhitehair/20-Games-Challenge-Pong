@@ -1,10 +1,13 @@
-[gd_scene load_steps=2 format=3 uid="uid://dc067e4hqxlfj"]
+[gd_scene load_steps=3 format=3 uid="uid://dc067e4hqxlfj"]
+
+[ext_resource type="Script" uid="uid://dfrijvlnb0fm7" path="res://left_paddle/left_paddle.gd" id="1_t2n2u"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_f3vte"]
 size = Vector2(40, 40)
 
 [node name="left_paddle" type="CharacterBody2D"]
 scale = Vector2(1.0906074, 5.162585)
+script = ExtResource("1_t2n2u")
 metadata/_edit_group_ = true
 
 [node name="ColorRect" type="ColorRect" parent="."]

@@ -1,3 +1,8 @@
-[gd_scene format=3 uid="uid://cg2joeqmmltpx"]
+[gd_scene load_steps=2 format=3 uid="uid://cg2joeqmmltpx"]
+
+[ext_resource type="PackedScene" uid="uid://dc067e4hqxlfj" path="res://left_paddle/left_paddle.tscn" id="1_53q0u"]
 
 [node name="main" type="Node2D"]
+
+[node name="left_paddle" parent="." instance=ExtResource("1_53q0u")]
+position = Vector2(257, 400.00006)
